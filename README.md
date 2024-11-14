@@ -2,16 +2,22 @@ Problem Statement
 Design a RESTful API for managing a stock trading platform using Java Spring Boot with H2 as the database.
 Requirements:
 Core Functionality:
+
 ● CRUD Operations:
 The API should support Create, Read, Update, and Delete operations for managing users, stocks, and orders.
+
 ● Real-time Price Fetching:
 Integrate with a third-party API to fetch real-time stock prices from an external exchange.
+
 ● Order Management:
 Users should be able to place buy/sell orders based on the fetched prices. The system should ensure that the price is locked at the time of placing the order.
+
 ● Order History:
 Maintain a history of all orders placed by users, including the prices at which the trades were executed.
+
 Attributes:
 Users:
+
 ● Decide the attributes
 Stocks:
 ● Decide the attributes
